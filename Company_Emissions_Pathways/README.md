@@ -1,6 +1,6 @@
 <h1> Company Emissions Pathways </h1>
 
-I wrote this script during my position as researcher on the greenhouse gas emissions trajectories and the ambition of future emissions reduction for "non-state actors" (entities other than countries with substantial emissions, such as companies, cities, etc.).
+I wrote this script during my position as a researcher on the greenhouse gas emissions trajectories and the ambition of future emissions reduction for "non-state actors" (entities other than countries with substantial emissions, such as companies, cities, etc.).
 
 There are two file, one for the main functions used in cleaning, selecting and transformation of the data and one containing the actual script.
 
