@@ -32,4 +32,4 @@ This script is only intended to showcase my abilities in Python scripting. It is
 
 <h1> License </h1>
 
-[MIT](https://choosealicense.com/licenses/mit/)
+The script and codes herein are intended for reading purposes only. I do not give my permission for them to be copies or otherwise used.
