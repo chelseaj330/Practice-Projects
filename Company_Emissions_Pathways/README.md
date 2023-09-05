@@ -4,14 +4,14 @@ This is a script that I wrote during my position as a researcher on the greenhou
 
 There are two files, one for the main functions used in cleaning, selecting and transformation of the data and one containing the actual script.
 
-The function file consists of three functions which:
+The function file (Companies_functions.ipynb/.py) consists of three functions which:
 1) Clean emissions data taken from two separate sources for each data year and calculates missing data
 2) Use regression analysis to select which data source is best to use for each company in the dataset
 3) Create time series for each company, using the selected data source, with 
     - interpolation between available emissions data points 
     - extrapolation, according to an imported growth rate, how a company's emissions would develop past their last recorded emissions reduction target
 
-The script file consists of the following steps:
+The script file (FinalScript_Companies.ipynb/.py) consists of the following steps:
 
 - Setting parameters such as which reporting years' data to use and the time series growth rate to use as the basis for emissions interpolation
 - Running each reporting year's data through the functions
@@ -29,6 +29,10 @@ The script file consists of the following steps:
 <h1> Installation & Usage </h1>
 
 This script is only intended to showcase my abilities in Python scripting. It is not intended for external usage. For this reason, no data files are provided.
+
+<h1> Contributing </h1>
+
+Two files used in the main script, ProcessDuplicates.py and useful_functions.py, are not included in this directory, as these were written and contributed by a colleague working together on the project.
 
 <h1> License </h1>
 
